@@ -37,6 +37,32 @@ for (let i = 0; i < arr.length; i++) {
 
 
 let arrTop4 = ['Phuong', 'Phong', 'Rin', 'Chung']
-for (let i = 0; i < 4; i++) {
-    console.log('Xinh nhat nha', i + 1, arrTop4[i])
+// for (let i = 0; i < 4; i++) {
+//     console.log('Xinh nhat nha', i + 1, arrTop4[i])
+// }
+
+let i = 0;
+// while (i < arrTop4.length) {
+//     console.log(`Xinh nhat nha`, i + 1, arrTop4[i]);
+//     i++;
+// }
+
+// while (i < arrTop4.length) {
+//     if (arrTop4[i].length === 5) {
+//         console.log(`Xinh nhat nha`, i + 1, arrTop4[i]);
+//     } else if (arrTop4[i].length === 3) {
+//         console.log(`Xinh nhat nha`, i + 1, arrTop4[i]);
+//     } else {
+
+//     }
+//     i++;
+// }
+
+while (i < arrTop4.length) {
+    if (arrTop4[i] === 'Phong') {
+        console.log(`Check name:`, i + 1, arrTop4[i]);
+        break;
+    }
+    console.log(`check i:`, i);
+    i++;
 }
